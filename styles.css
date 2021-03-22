@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+   
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+h1{
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.heading{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.nav-test{
+    background-color: transparent;
+    display:flex;
+    flex-direction: row;
+}
+.brand{
+    flex-basis:50%;
+    flex-grow: 1;
+    color: rgb(150, 236, 63);
+}
+.list{
+    display: flex;
+    flex-direction:row;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+}
+
+.nav-link{
+    color: aquamarine;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.twitter{
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+li{
+    padding: 5px;
+}
+
+#search-text-input{
+    border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom:0;
+    border-left: thick solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:25px;
+    margin-left: 675px; 
+    margin-top: 20px;
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+    width:183px; 
+}
+  
+#button-holder{
+    background-color:#f1f1f1;
+    border-top:thin solid #e5e5e5;
+    box-shadow:1px 1px 1px 1px #e5e5e5;
+    cursor:pointer;
+    float:left;
+    height:25px;
+    margin:20px 0 0 0;
+    margin-left: 10px;
+    text-align:center;
+    width:50px;
+}
+  
+#button-holder img{
+    margin:4px;
+    width:20px; 
+}
